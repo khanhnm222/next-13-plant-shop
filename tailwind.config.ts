@@ -15,7 +15,36 @@ const config: Config = {
       },
       backgroundColor: {
         'primary': '#284139'
-      }
+      },
+      colors: {
+        'brand-green': {
+          DEFAULT: '#284139',
+          100: 'hsl(152, 24%, 32%)',
+          300: '#28413A',
+          500: '#28413A',
+          600: '#28413A',
+          800: '#284139'
+        },
+        'brand-grey': {
+          300: '#828282',
+          DEFAULT: '#898989',
+          500: '#B5B5B5',
+          600: '#5E5E5E',
+          800: '#383838',
+        },
+        'brand-beige': {
+          100: '#E5E5E5',
+          200: '#E3D9CD',
+          300: '#EAE5E0',
+          DEFAULT: '#E9BA9E',
+        },
+        'brand-white': {
+          DEFAULT: '#fff'
+        },
+        brandbeige: '#E9BA9E',
+        'brand-brown-500': '#4E3924',
+        'brand-orange': '#FF6721',
+      },
     },
   },
   plugins: [],
