@@ -64,12 +64,12 @@ const Navbar = () => {
 
           <ul className='flex items-center gap-5'>
             <li className='hover:text-green-500 duration-150'>
-              <Link href='/panel-klienta/zaloguj-sie' title='Moje konto'>
+              <Link href='/auth/login' title='My account'>
                 <IconAccount />
               </Link>
             </li>
             <li className='hover:text-green-500 duration-150'>
-              <Link href='/koszyk' title='Koszyk'>
+              <Link href='/cart' title='Cart'>
                 <IconCart />
               </Link>
             </li>
