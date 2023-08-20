@@ -6,7 +6,6 @@ import { useState } from 'react';
 import Link from 'next/link';
 // components
 import Logo from './Logo';
-import Button from './button';
 // icons
 import IconAccount from './icons/IconAccount';
 import IconCart from './icons/IconCart';
@@ -23,30 +22,30 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='sticky top-0 w-full bg-white border-b border-gray-100 z-20 px-20'>
+    <nav className='sticky top-0 w-full bg-primary border-b border-gray-100 z-20 px-20 text-brand-white'>
       <div className='wrapper mx-auto h-16 flex items-center justify-between'>
         <Link href='/' title='Planty shop'>
           <Logo white={false} />
         </Link>
         <div className='flex items-center gap-6'>
           <ul
-            className={`absolute left-0 p-5 w-full bg-white border-b border-gray-100 z-10 duration-300 ${
+            className={`absolute left-0 p-5 w-full bg-primary border-b border-gray-100 z-10 duration-300 ${
               isMenuOpen
                 ? 'opacity-100 top-16'
                 : 'opacity-0 top-10 pointer-events-none'
             } lg:static lg:flex lg:gap-7 lg:bg-inherit lg:border-0 lg:p-0 lg:w-fit lg:opacity-100 lg:pointer-events-auto`}
           >
-            <li className='p-2.5 font-medium hover:text-green-500 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:border-0'>
+            <li className='p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:border-0'>
               <Link onClick={closeMenuOpen} href='/products' title='Products'>
                 Products
               </Link>
             </li>
-            <li className='p-2.5 font-medium hover:text-green-500 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:border-0'>
+            <li className='p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:border-0'>
               <Link onClick={closeMenuOpen} href='/blogs' title='Blogs'>
                 Blogs
               </Link>
             </li>
-            <li className='p-2.5 font-medium hover:text-green-500 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:hidden lg:border-0'>
+            <li className='p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:hidden lg:border-0'>
               <Link
                 onClick={closeMenuOpen}
                 href='/contact'
@@ -55,7 +54,7 @@ const Navbar = () => {
                 Contact
               </Link>
             </li>
-            <li className='p-2.5 font-medium hover:text-green-500 duration-150 text-2xl lg:text-base'>
+            <li className='p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base'>
               <Link onClick={closeMenuOpen} href='/contact' title='Contact'>
                 Contact
               </Link>
@@ -63,12 +62,12 @@ const Navbar = () => {
           </ul>
 
           <ul className='flex items-center gap-5'>
-            <li className='hover:text-green-500 duration-150'>
+            <li className='hover:text-orange-200 duration-150'>
               <Link href='/auth/login' title='My account'>
                 <IconAccount />
               </Link>
             </li>
-            <li className='hover:text-green-500 duration-150'>
+            <li className='hover:text-orange-200 duration-150'>
               <Link href='/cart' title='Cart'>
                 <IconCart />
               </Link>
