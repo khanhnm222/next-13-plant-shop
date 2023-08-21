@@ -1,0 +1,23 @@
+.product-card {
+	.product-header {
+		position: relative;
+
+		.add-to-cart {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			opacity: 0;
+		}
+	}
+
+	&:hover {
+		.product-title {
+			color: var(--colors-green-500, #22c55e);
+		}
+
+		.add-to-cart {
+			opacity: 1;
+		}
+	}
+}
