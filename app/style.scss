@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '../scss/mixins';
+
+@import '../scss/base';
+@import '../scss/navigation';
+@import '../scss/products';
+
+.home-header {
+  background-image: url('../public/Homepage_Slider_Welcome6_1512x.webp');
+  background-size: cover;
+  background-position: center;
+
+  .content {
+    min-height: 800px;
+
+    @include breakpoint(md) {
+      min-height: inherit;
+      padding-top: 8em;
+      padding-bottom: 8em;
+    }
+  }
+}
