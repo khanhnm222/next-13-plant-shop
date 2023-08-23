@@ -53,7 +53,7 @@ const Login = () => {
             You do not have an account ?
             <Link
               href='/auth/register'
-              className='text-green-500'
+              className='text-brand-green'
             >
               {' '}
               Register

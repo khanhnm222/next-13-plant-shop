@@ -35,7 +35,7 @@ const Button: React.FC<ButtonProps> = ({
     let variantClass = '';
     switch (variant) {
       case 'primary':
-        variantClass = 'bg-green-500 active:bg-green-600 text-white';
+        variantClass = 'bg-primary active:bg-green-600 text-white hover:bg-secondary hover:text-brand-green';
         break;
       case 'secondary':
         variantClass = 'bg-white active:bg-gray-50';

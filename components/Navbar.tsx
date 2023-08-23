@@ -77,7 +77,7 @@ const Navbar = () => {
                 className={`mobile-menu-btn ${isMenuOpen ? 'active' : ''}`}
                 onClick={handleMenuOpen}
               >
-                <div className='hamburger-icon'></div>
+                <div className='hamburger-icon hover:text-orange-200'></div>
               </button>
             </li>
           </ul>
