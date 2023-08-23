@@ -1,4 +1,4 @@
-import Button from '@/components/button'
+import Button from '@/components/Button'
 import TopSection from '@/components/home-section/TopSection'
 import SubscribeSection from '@/components/Subscribe/SubscribeSection'
 import Image from 'next/image'

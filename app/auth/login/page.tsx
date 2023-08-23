@@ -1,5 +1,5 @@
 // next
-import Button from '@/components/button';
+import Button from '@/components/Button';
 import Divider from '@/components/Divider';
 import IconGoogle from '@/components/icons/IconGoogle';
 import TextInput from '@/components/TextInput';

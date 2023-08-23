@@ -3,7 +3,7 @@
 import Link from 'next/link';
 // react
 import { useState, useEffect } from 'react';
-import Button from '../button';
+import Button from '../Button';
 // next
 // icons
 import IconArrowRight from '../icons/IconArrowRight';
