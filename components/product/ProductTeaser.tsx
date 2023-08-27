@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import Button from "./Button"
+import Button from "../common/Button"
 import RankingStar from "./RankingStar"
 
 const ProductTeaser = () => {

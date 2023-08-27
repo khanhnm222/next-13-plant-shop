@@ -5,10 +5,10 @@ import { useState } from 'react';
 // next
 import Link from 'next/link';
 // components
-import Logo from './Logo';
+import Logo from '../common/Logo';
 // icons
-import IconAccount from './icons/IconAccount';
-import IconCart from './icons/IconCart';
+import IconAccount from '../icons/IconAccount';
+import IconCart from '../icons/IconCart';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);

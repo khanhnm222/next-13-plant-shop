@@ -5,11 +5,11 @@ import { useState, useEffect } from 'react';
 // next
 import Link from 'next/link';
 // components
-import Logo from './Logo';
+import Logo from '../common/Logo';
 // icons
-import IconFacebook from './icons/IconFacebook';
-import IconInstagram from './icons/IconInstagram';
-import IconTwitter from './icons/IconTwitter';
+import IconFacebook from '../icons/IconFacebook';
+import IconInstagram from '../icons/IconInstagram';
+import IconTwitter from '../icons/IconTwitter';
 
 interface FooterData {
   description: string;
