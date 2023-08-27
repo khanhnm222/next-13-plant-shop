@@ -2,7 +2,6 @@
 import Navbar from '@/components/Navbar'
 import Pagination from '@/components/Pagination'
 import ProductTeaser from '@/components/ProductTeaser';
-import Image from 'next/image'
 import { useState } from 'react';
 
 export default function Products() {
