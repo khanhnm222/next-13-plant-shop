@@ -9,7 +9,7 @@ const ProductTeaser = () => {
       <article>
         <Link href={""} className='group relative'>
         <div className="flex justify-center bg-gray-100 shadow-xl aspect-w-1 aspect-h-1">
-          <Image src='/monstera.webp' alt="plant" loading="lazy" width={150} height={250} className='w-auto h-auto' />
+          <Image src='/monstera.webp' alt="plant" loading="lazy" width={250} height={350} className='h-auto' />
         </div>
         </Link>
       </article>
