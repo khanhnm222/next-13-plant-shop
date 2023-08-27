@@ -1,5 +1,5 @@
 // next
-import Button from '@/components/Button';
+import Button from '@/components/common/Button';
 import Link from 'next/link';
 
 const EmptyCart = () => {

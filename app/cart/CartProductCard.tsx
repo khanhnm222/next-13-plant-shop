@@ -1,6 +1,6 @@
-import Button from "@/components/Button";
+import Button from "@/components/common/Button";
 import IconTrash from "@/components/icons/IconTrash";
-import TextInput from "@/components/TextInput";
+import TextInput from "@/components/common/TextInput";
 import Image from "next/image";
 
 

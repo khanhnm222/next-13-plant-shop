@@ -1,5 +1,5 @@
 // components
-import Button from '@/components/Button';
+import Button from '@/components/common/Button';
 import IconArrowRight from '@/components/icons/IconArrowRight';
 import Link from 'next/link';
 import CartProductCard from './CartProductCard';

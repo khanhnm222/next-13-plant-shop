@@ -1,7 +1,7 @@
 'use client'
-import Navbar from '@/components/Navbar'
-import Pagination from '@/components/Pagination'
-import ProductTeaser from '@/components/ProductTeaser';
+import Navbar from '@/components/navigation/Navbar'
+import Pagination from '@/components/common/Pagination'
+import ProductTeaser from '@/components/product/ProductTeaser';
 import { useState } from 'react';
 
 export default function Products() {
