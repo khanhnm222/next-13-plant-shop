@@ -14,7 +14,7 @@ const ProductTeaser = () => {
         </Link>
       </article>
       <div className="grid text-center">
-        <h4 className="text-brand-green truncate block">Montera Diamon</h4>
+        <h3 className="text-brand-green text-xl font-medium truncate block p-5">Montera Diamon</h3>
         <div className="text-lg text-brand-green flex justify-center mb-5">
           <RankingStar />
           <span className="ml-5">30.000 VND</span>

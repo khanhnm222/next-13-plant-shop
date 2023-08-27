@@ -26,7 +26,7 @@ const ProductCard = ({ data: { attributes: p } }: any) => {
               <p className="text-base  font-medium line-through">
                 &#8377;{p.original_price}
               </p>
-              <p className="ml-auto text-base font-medium text-green-500">
+              <p className="ml-auto text-base font-medium text-primary">
                 {getDiscountedPricePercentage(
                   p.original_price,
                   p.price
