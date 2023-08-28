@@ -35,26 +35,17 @@ const Navbar = () => {
                 : 'opacity-0 top-10 pointer-events-none'
             } lg:static lg:flex lg:gap-7 lg:bg-inherit lg:border-0 lg:p-0 lg:w-fit lg:opacity-100 lg:pointer-events-auto`}
           >
-            <li className='p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:border-0'>
+            <li className='nav-underline p-2.5 font-medium tracking-tighter hover:text-orange-200 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:border-0'>
               <Link onClick={closeMenuOpen} href='/products' title='Products'>
                 Products
               </Link>
             </li>
-            <li className='p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:border-0'>
+            <li className='nav-underline p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:border-0'>
               <Link onClick={closeMenuOpen} href='/blogs' title='Blogs'>
                 Blogs
               </Link>
             </li>
-            <li className='p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base border-b border-gray-100 lg:hidden lg:border-0'>
-              <Link
-                onClick={closeMenuOpen}
-                href='/contact'
-                title='Contact'
-              >
-                Contact
-              </Link>
-            </li>
-            <li className='p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base'>
+            <li className='nav-underline p-2.5 font-medium hover:text-orange-200 duration-150 text-2xl lg:text-base'>
               <Link onClick={closeMenuOpen} href='/contact' title='Contact'>
                 Contact
               </Link>
