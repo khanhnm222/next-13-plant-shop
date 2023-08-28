@@ -35,21 +35,21 @@ export default function Footer() {
             <Link
               href='/products'
               title='Products'
-              className='hover:text-green-500 duration-200'
+              className='hover:text-brand-beige duration-200'
             >
               Products
             </Link>
             <Link
               href='/blogs'
               title='Blogs'
-              className='hover:text-green-500 duration-200'
+              className='hover:text-brand-beige duration-200'
             >
               Blogs
             </Link>
             <Link
               href='/contact'
               title='Contact'
-              className='hover:text-green-500 duration-200'
+              className='hover:text-brand-beige duration-200'
             >
               Contact
             </Link>
@@ -58,21 +58,21 @@ export default function Footer() {
             <Link
               href='#'
               title='Facebook'
-              className='hover:text-green-500 duration-200'
+              className='hover:text-brand-beige duration-200'
             >
               <IconFacebook />
             </Link>
             <Link
               href='#'
               title='Instagram'
-              className='hover:text-green-500 duration-200'
+              className='hover:text-brand-beige duration-200'
             >
               <IconInstagram />
             </Link>
             <Link
               href='#'
               title='Twitter'
-              className='hover:text-green-500 duration-200'
+              className='hover:text-brand-beige duration-200'
             >
               <IconTwitter />
             </Link>
