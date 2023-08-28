@@ -44,10 +44,10 @@ export default function ProductDetail() {
             </button>
             <Image
               className='lg:rounded-2xl lg:cursor-pointer'
-              src='/monstera.webp'
+              src={ImageProductsThumbnails[imgIndex]}
               onClick={() => setLightboxOpen((prev) => !prev)}
-              alt='Shoes'
-              width={300}
+              alt='plants'
+              width={400}
               height={300}
             />
             <button
@@ -67,7 +67,7 @@ export default function ProductDetail() {
                 }`}
                 onClick={() => setImgIndex(index)}
                 src={item}
-                alt='shoes'
+                alt='plants'
                 width={120}
                 height={120}
               />
@@ -82,10 +82,10 @@ export default function ProductDetail() {
           </p>
           <div className='flex justify-between items-center lg:flex-col lg:items-start'>
             <div className='flex justify-between items-center gap-4 font-bold'>
-              <p className='text-2xl'>$125.00</p>
+              <p className='text-2xl'>125.000 VND</p>
               <p className='text-primary bg-secondary px-2 rounded-lg'>50%</p>
             </div>
-            <p className='text-grayish-blue line-through'>$250.00</p>
+            <p className='text-grayish-blue line-through'>250.000 VND</p>
           </div>
           <div className='flex flex-col gap-4 lg:flex-row'>
             <div className='relative lg:basis-1/3'>
@@ -149,9 +149,9 @@ export default function ProductDetail() {
               </button>
               <Image
                 className='lg:rounded-2xl lg:cursor-pointer'
-                src='/monstera.webp'
+                src={ImageProductsThumbnails[imgIndex]}
                 onClick={() => setLightboxOpen((prev) => !prev)}
-                alt='Shoes'
+                alt='plants'
                 width={250}
                 height={250}
               />
@@ -179,7 +179,7 @@ export default function ProductDetail() {
                   }`}
                   onClick={() => setImgIndex(index)}
                   src={item}
-                  alt='shoes'
+                  alt='plants'
                   width={120}
                   height={120}
                 />

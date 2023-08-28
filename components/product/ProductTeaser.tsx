@@ -7,7 +7,7 @@ const ProductTeaser = () => {
   return (
     <div>
       <article>
-        <Link href={""} className='group relative'>
+        <Link href={"/products/1"} className='group relative'>
         <div className="flex justify-center bg-gray-100 shadow-xl aspect-w-1 aspect-h-1">
           <Image src='/monstera.webp' alt="plant" loading="lazy" width={250} height={350} className='h-auto' />
         </div>
@@ -17,7 +17,7 @@ const ProductTeaser = () => {
         <h3 className="text-brand-green text-xl font-medium truncate block p-5">Montera Diamon</h3>
         <div className="text-lg text-brand-green flex justify-center mb-5">
           <RankingStar />
-          <span className="ml-5">30.000 VND</span>
+          <span className="ml-5">125.000 VND</span>
         </div>
         <Button variant={"primary"} icon='only'>
           <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 mx-1" viewBox="0 0 20 20" fill="currentColor">

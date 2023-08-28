@@ -3,6 +3,7 @@ import Navbar from '@/components/navigation/Navbar'
 import Pagination from '@/components/common/Pagination'
 import ProductTeaser from '@/components/product/ProductTeaser';
 import { useState } from 'react';
+import Breadcrumb from '@/components/common/Breadcrumb';
 
 export default function Products() {
   const [selectedFilter, setSelectedFilter] = useState('all');
@@ -28,14 +29,14 @@ export default function Products() {
 
   const defaultCategoryClasses = 'block font-medium text-gray-500 dark:text-gray-300 hover:underline hover:font-semibold hover:cursor-pointer';
 
-  const tempProductlist = [1, 2, 3, 4, 5, 6]
+  const tempProductlist = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
   return (
     <>
       <main className="flex flex-col items-center justify-between p-24">
         Products
-        <div className="pt-2 col-span-9">
-
+        <div className="px-6 self-start font-semibold">
+          <Breadcrumb />
         </div>
         <div className="container px-6 py-8 mx-auto">
           <div className="lg:flex lg:-mx-2">
