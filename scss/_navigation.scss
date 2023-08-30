@@ -45,3 +45,22 @@
 		}
 	}
 }
+
+.nav-underline {
+	display: inline-block;
+  padding-bottom: 2px;
+  background-image: linear-gradient(#fff, #fff);
+  background-position: 0 100%; /*OR bottom left*/
+  background-size: 0% 2px;
+  background-repeat: no-repeat;
+  transition:
+    background-size 0.3s,
+    background-position 0s 0.3s;
+}
+.nav-underline:hover {
+  background-position: 100% 100%; /*OR bottom right*/
+  background-size: 100% 2px;
+}
+.activate-route {
+  background-size: 100% 2px !important
+}
