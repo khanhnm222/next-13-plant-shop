@@ -1,9 +1,9 @@
-import BlogCard from "@/components/blog/BlogCard";
-import Breadcrumb from "@/components/common/Breadcrumb";
-import Pagination from "@/components/common/Pagination";
+import BlogCard from "@/components/blog/BlogCard"
+import Breadcrumb from "@/components/common/Breadcrumb"
+import Pagination from "@/components/common/Pagination"
 
 export default function Blogs() {
-  const blogItems = [1,2,3,4,5,6]
+  const blogItems = [1,2,3,4,5,6,7,8]
   return (
     <>
       <main className="flex min-h-[53vh] flex-col items-center justify-between p-24">
