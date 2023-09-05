@@ -22,7 +22,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className='sticky top-0 w-full bg-primary border-b border-gray-100 z-20 px-20 text-brand-white'>
+    <nav className='sticky top-0 w-full bg-primary border-b border-gray-100 z-20 px-20 text-brand-white border-none'>
       <div className='wrapper mx-auto h-16 flex items-center justify-between'>
         <Link href='/' title='Planty shop'>
           <Logo white={false} />

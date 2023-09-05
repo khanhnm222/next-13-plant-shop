@@ -5,6 +5,7 @@ interface ButtonProps {
   additionalClass?: string;
   children?: React.ReactNode;
   icon?: 'left' | 'right' | 'only';
+  onClick?: (e: any) => void;
 }
 
 const Button: React.FC<ButtonProps> = ({
@@ -14,6 +15,7 @@ const Button: React.FC<ButtonProps> = ({
   additionalClass,
   children,
   icon,
+  onClick,
 }) => {
   const getClassName = () => {
     let baseClass =
@@ -71,7 +73,7 @@ const Button: React.FC<ButtonProps> = ({
     }
   };
 
-  return <button className={getClassName()}>{buttonContent()}</button>;
+  return <button className={getClassName()} onClick={onClick}>{buttonContent()}</button>;
 };
 
 export default Button;
