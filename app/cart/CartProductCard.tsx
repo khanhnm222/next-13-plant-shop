@@ -14,23 +14,23 @@ interface CartProductCardProps {
 }
 
 const CartProductCard: React.FC<CartProductCardProps> = ({
-  number,
+  number = 1,
   title,
   imgSrc,
   shortDescription,
   price,
   discountedPrice,
 }) => {
-  const formattedPrice = price.toFixed(2).replace('.', ',');
+  const formattedPrice = price.toFixed(3).replace('.', ',');
   const formattedDiscountedPrice = discountedPrice
-    ? discountedPrice.toFixed(2).replace('.', ',')
+    ? discountedPrice.toFixed(3).replace('.', ',')
     : null;
 
   return (
     <div className='p-4 border-t border-gray-100 lg:flex lg:justify-between lg:items-center'>
       <div className='flex gap-3 items-center relative'>
         <span className='text-xl'>{number}.</span>
-        <Image className='w-24 h-24' src={imgSrc} alt={title} />
+        <Image src={imgSrc} alt={title} width={120} height={120} />
         <div>
           <p className='text-xl'>{title}</p>
           <small className='text-sm'>{shortDescription}</small>
@@ -44,12 +44,12 @@ const CartProductCard: React.FC<CartProductCardProps> = ({
         </Button>
       </div>
       <div className='flex justify-between mt-4'>
-        <TextInput name='quantity' type='number' label='' placeholder='' />
+        <TextInput defaultValue={number} name='quantity' type='number' label='' placeholder='' />
         <bdi className='text-2xl'>
-          {formattedPrice}USD
+          {formattedPrice}VND
           {discountedPrice && (
             <del className='text-gray-400 pl-2'>
-              {formattedDiscountedPrice}USD
+              {formattedDiscountedPrice}VND
             </del>
           )}
         </bdi>

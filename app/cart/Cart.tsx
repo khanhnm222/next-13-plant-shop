@@ -8,14 +8,14 @@ const Cart = () => {
   return (
     <main className='wrapper lg:grid lg:grid-cols-2-1 gap-20'>
       <div className='my-10'>
-        {/* <CartProductCard
+        <CartProductCard
           number={1}
-          title='Plant'
-          imgSrc=''
+          title='Monstera'
+          imgSrc='/monstera.webp'
           shortDescription=''
-          price={8.5}
-          discountedPrice={9}
-        /> */}
+          price={120}
+          discountedPrice={200}
+        />
       </div>
       <aside>
         <div className='p-4 bg-gray-50 rounded-lg'>
