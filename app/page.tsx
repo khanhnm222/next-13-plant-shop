@@ -7,12 +7,12 @@ export default function Home() {
     <>
       <header className='home-header w-full'>
         <div className='content wrapper h-full text-center flex flex-col items-center justify-center gap-2'>
-          <h1 className='text-4xl md:text-6xl text-white font-medium'>
+          <div className='text-4xl md:text-6xl text-brand-green font-medium bg-white rounded-md p-[10px] opacity-80'>
             Life with Planty
-          </h1>
-          <p className='text-lg max-w-4xl text-white mx-auto mt-2'>
-            Enjoy your life!
-          </p>
+            <p className='text-lg max-w-4xl text-brand-green mx-auto mt-2'>
+              Enjoy your life!
+            </p>
+          </div>
           <div className='buttons mt-4 flex flex-col md:flex-row gap-2 md:gap-4 w-40 md:w-fit'>
             <Link className='w-full md:w-auto' href='/products' title='Shop now'>
               <Button
