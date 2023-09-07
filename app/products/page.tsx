@@ -1,5 +1,4 @@
 'use client'
-import Navbar from '@/components/navigation/Navbar'
 import Pagination from '@/components/common/Pagination'
 import ProductTeaser from '@/components/product/ProductTeaser';
 import { useState } from 'react';
