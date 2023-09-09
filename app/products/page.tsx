@@ -32,8 +32,7 @@ export default function Products() {
 
   return (
     <>
-      <main className="flex flex-col items-center justify-between p-24">
-        Products
+      <main className="flex flex-col items-center justify-between p-24 py-8">
         <div className="px-6 self-start font-semibold">
           <Breadcrumb />
         </div>

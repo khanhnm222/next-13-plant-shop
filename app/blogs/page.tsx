@@ -6,15 +6,12 @@ export default function Blogs() {
   const blogItems = [1,2,3,4,5,6,7,8]
   return (
     <>
-      <main className="flex min-h-[53vh] flex-col items-center justify-between p-24">
-        <div className="pt-2 col-span-9 text-brand-green">
+      <main className="flex min-h-[53vh] flex-col items-center justify-between p-24 py-8">
+        <div className="pt-2 col-span-9 text-brand-green pb-4">
           <div className="pb-2 text-center">
             <h3 className="text-xl font-extralight leading-none">The Shop</h3>
             <h2 className="pd-2 text-4xl font-bold tracking-tighter font-heading leading-none mb-1">Explore the blogs</h2>
           </div>
-        </div>
-        <div className="px-6 self-start font-semibold">
-          <Breadcrumb />
         </div>
         <section className=" dark:bg-gray-900">
           <div className="container px-6 pb-10 mx-auto">

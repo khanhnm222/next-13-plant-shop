@@ -4,7 +4,7 @@ import EmptyCart from './EmptyCart';
 function Koszyk() {
   return (
     <>
-      <main className="flex flex-col items-center justify-between p-24 min-h-[52.7vh]">
+      <main className="flex flex-col items-center justify-between p-24 py-8 min-h-[52.7vh]">
         Shopping cart
         <Cart />
       </main>
