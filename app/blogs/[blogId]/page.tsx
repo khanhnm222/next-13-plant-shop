@@ -2,7 +2,7 @@ import Image from "next/image"
 
 const BlogDetail = () => {
   return (
-    <>
+    <main className="min-h-[53vh] p-24 py-8">
       <div className="pt-2 col-span-9 text-brand-green">
         <div className="pb-2 text-center">
           <h3 className="text-xl font-extralight leading-none">The Shop</h3>
@@ -105,7 +105,7 @@ const BlogDetail = () => {
 
         </div>
       </div>
-    </>
+    </main>
   )
 }
 export default BlogDetail
