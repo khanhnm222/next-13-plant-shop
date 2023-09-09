@@ -2,7 +2,8 @@ import { getDiscountedPricePercentage } from "@/utils/helpers";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-const ProductCard = ({ data: { attributes: product } }: any) => {
+
+const ProductCard = ({ product }: any) => {
   return (
     <Link
       href={`/products/${product.id}`}
@@ -11,7 +12,7 @@ const ProductCard = ({ data: { attributes: product } }: any) => {
       <Image
         width={400}
         height={550}
-        src={product.thumbnail.data.attributes.url}
+        src={product.imgUrl}
         alt={product.name}
       />
       <div className="p-4 text-black/[0.9]">
