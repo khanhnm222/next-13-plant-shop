@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import Navbar from '@/components/navigation/Navbar'
 import Footer from '@/components/navigation/Footer'
+import { Providers } from '@/redux/provider'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,10 +20,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Navbar />
-          {children}
-        <Footer />
+      <body className={`${inter.className} page-body`}>
+        <Providers>
+          <Navbar />
+            {children}
+          <Footer />
+        </Providers>
       </body>
     </html>
   )
