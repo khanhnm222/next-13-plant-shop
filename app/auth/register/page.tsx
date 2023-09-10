@@ -66,7 +66,7 @@ const Register = () => {
           </form>
           <p className='mt-2.5 mx-auto w-fit'>
             You already have an account ?
-            <Link href='/auth/login' className='text-brand-green'>
+            <Link href='/auth/login' className='text-brand-green font-bold'>
               {' '}
               Login
             </Link>
