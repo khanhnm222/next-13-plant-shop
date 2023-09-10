@@ -1,5 +1,5 @@
-import Subscribe from '@/components/home/subscribe/page'
-import TopCover from '@/components/home/top-cover/page'
+import Subscribe from '@/components/home/Subscribe'
+import TopCover from '@/components/home/TopCover'
 
 export default function Home() {
   return (
