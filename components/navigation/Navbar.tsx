@@ -9,6 +9,7 @@ import Logo from '../common/Logo';
 // icons
 import IconAccount from '../icons/IconAccount';
 import IconCart from '../icons/IconCart';
+import { IconSearch } from '../icons';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -28,6 +29,14 @@ const Navbar = () => {
           <Logo white={false} />
         </Link>
         <div className='flex items-center gap-6'>
+          <div className="w-full bg-white hidden md:flex items-center gap-x-1 border-[1px] border-lightText/50 rounded-full px-4 py-1.5 focus-within:border-white group h-[35px]">
+            <IconSearch className="text-gray-500 group-focus-within:text-darkText duration-200 w-[25px] h-[auto] opacity-40" />
+            <input
+              type="text"
+              placeholder="Search for products"
+              className="placeholder:text-sm flex-1 outline-none text-brand-green"
+            />
+          </div>
           <ul
             className={`absolute left-0 p-5 w-full bg-primary border-b border-gray-100 z-10 duration-300 ${
               isMenuOpen
