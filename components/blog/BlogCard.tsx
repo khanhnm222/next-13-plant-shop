@@ -8,9 +8,15 @@ const BlogCard = () => {
   const router = useRouter()
   return (
     <div className="max-w-xl">
-      <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700">
+      <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700 group overflow-hidden relative">
         <Link href="/blogs/1">
-          <Image className="rounded-t-lg" src="https://flowbite.com/docs/images/blog/image-1.jpg" alt="" width={920} height={613} />
+          <Image
+            className="rounded-t-lg object-cover group-hover:scale-110 duration-200"
+            src="https://flowbite.com/docs/images/blog/image-1.jpg"
+            alt="Blog Image"
+            width={920}
+            height={613}
+          />
         </Link>
         <div className="p-5">
           <Link href="blogs/1">
