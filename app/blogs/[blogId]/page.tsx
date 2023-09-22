@@ -24,7 +24,7 @@ const BlogDetail = () => {
             <a href="#"
               className="px-4 py-1 bg-black text-gray-200 inline-flex items-center justify-center mb-2">Plants</a>
             <h2 className="text-4xl font-semibold text-gray-100 leading-tight">
-              As you likely already know, plants can really spruce up your space and add a new level of gorgeous decor to your home.
+              How to Care for Rare Indoor Plants
             </h2>
             <div className="flex mt-3">
               <Image
@@ -43,26 +43,57 @@ const BlogDetail = () => {
         </div>
 
         <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-lg mx-auto text-lg leading-relaxed">
-          <p className="pb-6">Advantage old had otherwise sincerity dependent additions. It in adapted natural hastily is
-            justice. Six draw
-            you him full not mean evil. Prepare garrets it expense windows shewing do an. She projection advantages
-            resolution son indulgence. Part sure on no long life am at ever. In songs above he as drawn to. Gay was
-            outlived peculiar rendered led six.</p>
+          <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">INTRODUCTION</h2>
+          <p className="pb-6">
+            Rare indoor plants are a delightful addition to any home or office.
+            Their unique features and scarcity make them a prized possession for plant enthusiasts.
+            However, taking care of rare indoor plants requires special attention and knowledge.
+            In this article, we will explore some essential tips to help you care for your rare indoor plants and keep them thriving.
+          </p>
 
-          <p className="pb-6">Difficulty on insensible reasonable in. From as went he they. Preference themselves me as
-            thoroughly
-            partiality considered on in estimating. Middletons acceptance discovered projecting so is so or. In or
-            attachment inquietude remarkably comparison at an. Is surrounded prosperous stimulated am me discretion
-            expression. But truth being state can she china widow. Occasional preference fat remarkably now projecting
-            uncommonly dissimilar. Sentiments projection particular companions interested do at my delightful. Listening
-            newspaper in advantage frankness to concluded unwilling.</p>
+          <div className="pb-6">
+            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">1. RESEARCH THE PLANT</h2>
+            Before bringing home a rare indoor plant, it&apos;s crucial to research its specific care requirements.
+            Each rare plant has different needs in terms of light, temperature, humidity, and watering.
+            Understanding these requirements will help you create an ideal environment for your plant to grow.
+          </div>
 
-          <p className="pb-6">Adieus except say barton put feebly favour him. Entreaties unpleasant sufficient few pianoforte
-            discovered
-            uncommonly ask. Morning cousins amongst in mr weather do neither. Warmth object matter course active law
-            spring six. Pursuit showing tedious unknown winding see had man add. And park eyes too more him. Simple excuse
-            active had son wholly coming number add. Though all excuse ladies rather regard assure yet. If feelings so
-            prospect no as raptures quitting.</p>
+          <div className="pb-6">
+            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">2. PROVIDE ADEQUATE LIGHTING</h2>
+            Proper lighting is vital for the health and growth of indoor plants.
+            Some rare plants prefer bright, indirect light, while others thrive in low-light conditions.
+            Ensure that you place your rare plant in a location that provides the right amount of light based on its needs.
+          </div>
+
+          <div className="pb-6">
+            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">3. MAINTAIN OPTIMAL TEMPERATURE AND HUMIDITY</h2>
+            Temperature and humidity levels play a significant role in the well-being of rare indoor plants.
+            Most rare plants prefer a temperature range between 60-75°F (15-24°C).
+            Additionally, some rare plants require higher humidity levels.
+            You can increase humidity by using a humidifier or placing a tray of water near the plant.
+          </div>
+
+          <div className="pb-6">
+            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">4. WATERING AND SOIL</h2>
+            Proper watering techniques are crucial for rare indoor plants.
+            It&apos;s essential to understand the watering needs of your plant and avoid overwatering or underwatering.
+            Some rare plants may require well-draining soil, while others prefer a more moisture-retentive mix.
+            Ensure that you use the right type of soil and water your plant accordingly.
+          </div>
+
+          <div className="pb-6">
+            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">5. PRUNING AND MAINTENANCE</h2>
+            Regular pruning helps maintain the health and shape of rare indoor plants.
+            Remove any dead or yellowing leaves, trim overgrown branches, and promote bushier growth.
+            Additionally, keep an eye out for pests and diseases, and take immediate action if you notice any signs of infestation.
+          </div>
+
+          <div className="pb-6">
+            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">6. FERTILISING</h2>
+            Rare indoor plants may benefit from occasional fertilisation.
+            However, it&apos;s essential to use a diluted, balanced fertiliser and follow the recommended dosage.
+            Over-fertilisation can harm the plant, so it&apos;s crucial to be cautious and monitor the plant&apos;s response.
+          </div>
 
           <div className="border-l-4 border-gray-500 pl-4 mb-6 italic rounded">
             Sportsman do offending supported extremity breakfast by listening. Decisively advantages nor
@@ -71,37 +102,18 @@ const BlogDetail = () => {
             Steepest speaking up attended it as. Made neat an on be gave show snug tore.
           </div>
 
-          <p className="pb-6">Exquisite cordially mr happiness of neglected distrusts. Boisterous impossible unaffected he me
+          <div className="pb-6">Exquisite cordially mr happiness of neglected distrusts. Boisterous impossible unaffected he me
             everything.
             Is fine loud deal an rent open give. Find upon and sent spot song son eyes. Do endeavor he differed carriage
             is learning my graceful. Feel plan know is he like on pure. See burst found sir met think hopes are marry
-            among. Delightful remarkably new assistance saw literature mrs favourable.</p>
+            among. Delightful remarkably new assistance saw literature mrs favourable.</div>
 
-          <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">Uneasy barton seeing remark happen his has</h2>
-
-          <p className="pb-6">Guest it he tears aware as. Make my no cold of need. He been past in by my hard. Warmly thrown
-            oh he common
-            future. Otherwise concealed favourite frankness on be at dashwoods defective at. Sympathize interested
-            simplicity at do projecting increasing terminated. As edward settle limits at in.</p>
-
-          <p className="pb-6">Dashwood contempt on mr unlocked resolved provided of of. Stanhill wondered it it welcomed oh.
-            Hundred no
-            prudent he however smiling at an offence. If earnestly extremity he he propriety something admitting convinced
-            ye. Pleasant in to although as if differed horrible. Mirth his quick its set front enjoy hoped had there. Who
-            connection imprudence middletons too but increasing celebrated principles joy. Herself too improve gay winding
-            ask expense are compact. New all paid few hard pure she.</p>
-
-          <p className="pb-6">Breakfast agreeable incommode departure it an. By ignorant at on wondered relation. Enough at
-            tastes really
-            so cousin am of. Extensive therefore supported by extremity of contented. Is pursuit compact demesne invited
-            elderly be. View him she roof tell her case has sigh. Moreover is possible he admitted sociable concerns. By
-            in cold no less been sent hard hill.</p>
-
-          <p className="pb-6">Detract yet delight written farther his general. If in so bred at dare rose lose good. Feel and
-            make two real
-            miss use easy. Celebrated delightful an especially increasing instrument am. Indulgence contrasted sufficient
-            to unpleasant in in insensible favourable. Latter remark hunted enough vulgar say man. Sitting hearted on it
-            without me.</p>
+          <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">CONCLUSION</h2>
+          <p className="pb-6">
+            Caring for rare indoor plants can be a rewarding and enjoyable experience.
+            By researching the plant, providing proper lighting, maintaining optimal temperature and humidity, watering correctly, pruning regularly, and fertilizing with care, you can ensure the health and longevity of your rare indoor plants.
+            Remember to give your plants the love and attention they deserve, and they will thrive and beautify your space for years to come.
+          </p>
 
         </div>
       </div>
