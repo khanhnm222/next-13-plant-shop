@@ -48,7 +48,6 @@
 
 .nav-underline {
 	display: inline-block;
-  padding-bottom: 2px;
   background-image: linear-gradient(#fff, #fff);
   background-position: 0 100%; /*OR bottom left*/
   background-size: 0% 2px;
@@ -60,6 +59,7 @@
 .nav-underline:hover {
   background-position: 100% 100%; /*OR bottom right*/
   background-size: 100% 2px;
+	padding-bottom: 2px;
 }
 .activate-route {
   background-size: 100% 2px !important

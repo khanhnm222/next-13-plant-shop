@@ -1,5 +1,4 @@
 import BlogCard from "@/components/blog/BlogCard"
-import Breadcrumb from "@/components/common/Breadcrumb"
 import Pagination from "@/components/common/Pagination"
 
 export default function Blogs() {

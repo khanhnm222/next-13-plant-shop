@@ -8,14 +8,14 @@ const ProductTeaser = () => {
     <div>
       <article>
         <Link href={"/products/1"} className='group relative'>
-        <div className="flex justify-center aspect-w-1 aspect-h-1">
+        <div className="flex justify-center aspect-w-1 aspect-h-1 group overflow-hidden relative">
           <Image
             src='/monstera.webp'
             alt="plant"
             loading="lazy"
             width={250}
             height={350}
-            className='h-auto hover:shadow-lg transform transition hover:-translate-y-2'
+            className='h-auto group-hover:scale-110 duration-200'
           />
         </div>
         </Link>
