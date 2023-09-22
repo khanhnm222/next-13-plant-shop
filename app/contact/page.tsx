@@ -62,7 +62,7 @@ export default function Contact() {
                   </div>
                 </div>
                 <div className="p-2 w-full">
-                  <button className="flex mx-auto text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-secondary hover:text-brand-green rounded text-lg">
+                  <button className="flex w-full justify-center mx-auto text-white bg-primary border-0 py-2 px-8 focus:outline-none hover:bg-secondary hover:text-brand-green rounded text-lg">
                     Send
                   </button>
                 </div>
