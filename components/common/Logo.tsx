@@ -7,7 +7,7 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ white }) => {
   return (
     // <img src="../assets/images/logo.svg" alt="logo" />
-    <div className="cursor-pointer app-logo text-sm sm:text-sm md:text-base lg:text-2xl">
+    <div className="cursor-pointer app-logo text-sm sm:text-sm md:text-base lg:text-base xl:text-2xl">
       PLANT ❤ SHOP
     </div>
   );
