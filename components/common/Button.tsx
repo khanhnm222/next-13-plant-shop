@@ -12,14 +12,14 @@ const Button: React.FC<ButtonProps> = ({
   size,
   variant,
   label,
-  additionalClass,
+  additionalClass = '',
   children,
   icon,
   onClick,
 }) => {
   const getClassName = () => {
     let baseClass =
-      'rounded-2xl flex items-center justify-center gap-2 font-medium px-4 shadow-sm hover:shadow-md hover:scale-105 active:shadow-sm duration-200';
+      'rounded-lg flex items-center justify-center gap-2 font-medium px-4 shadow-sm hover:shadow-md hover:scale-105 active:shadow-sm duration-200';
 
     let sizeClass = '';
     switch (size) {
