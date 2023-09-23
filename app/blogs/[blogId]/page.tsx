@@ -1,14 +1,10 @@
+import PageHeading from "@/components/common/PageHeading"
 import Image from "next/image"
 
 const BlogDetail = () => {
   return (
     <main className="min-h-[53vh] p-24 py-8">
-      <div className="pt-2 col-span-9 text-brand-green">
-        <div className="pb-2 text-center">
-          <h3 className="text-xl font-extralight leading-none">The Shop</h3>
-          <h2 className="pd-2 text-4xl font-bold tracking-tighter font-heading leading-none mb-1">Explore the blogs</h2>
-        </div>
-      </div>
+      <PageHeading title='Explore the blogs' subTitle="The Shop" />
       <div className="px-4 mx-auto pt-10 pb-10">
         <div className="mb-4 md:mb-0 w-full max-w-screen-lg mx-auto relative" style={{height: '24em'}}>
           <div className="absolute left-0 bottom-0 w-full h-full z-10"
@@ -42,8 +38,8 @@ const BlogDetail = () => {
           </div>
         </div>
 
-        <div className="px-4 lg:px-0 mt-12 text-gray-700 max-w-screen-lg mx-auto text-lg leading-relaxed">
-          <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">INTRODUCTION</h2>
+        <div className="px-4 lg:px-0 mt-1 max-w-screen-lg mx-auto text-lg leading-relaxed text-brand-green">
+          <h2 className="text-2xl font-semibold mb-4 mt-4">INTRODUCTION</h2>
           <p className="pb-6">
             Rare indoor plants are a delightful addition to any home or office.
             Their unique features and scarcity make them a prized possession for plant enthusiasts.
@@ -52,21 +48,21 @@ const BlogDetail = () => {
           </p>
 
           <div className="pb-6">
-            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">1. RESEARCH THE PLANT</h2>
+            <h2 className="text-xl font-semibold mb-4 mt-4">1. RESEARCH THE PLANT</h2>
             Before bringing home a rare indoor plant, it&apos;s crucial to research its specific care requirements.
             Each rare plant has different needs in terms of light, temperature, humidity, and watering.
             Understanding these requirements will help you create an ideal environment for your plant to grow.
           </div>
 
           <div className="pb-6">
-            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">2. PROVIDE ADEQUATE LIGHTING</h2>
+            <h2 className="text-xl font-semibold mb-4 mt-4">2. PROVIDE ADEQUATE LIGHTING</h2>
             Proper lighting is vital for the health and growth of indoor plants.
             Some rare plants prefer bright, indirect light, while others thrive in low-light conditions.
             Ensure that you place your rare plant in a location that provides the right amount of light based on its needs.
           </div>
 
           <div className="pb-6">
-            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">3. MAINTAIN OPTIMAL TEMPERATURE AND HUMIDITY</h2>
+            <h2 className="text-xl font-semibold mb-4 mt-4">3. MAINTAIN OPTIMAL TEMPERATURE AND HUMIDITY</h2>
             Temperature and humidity levels play a significant role in the well-being of rare indoor plants.
             Most rare plants prefer a temperature range between 60-75°F (15-24°C).
             Additionally, some rare plants require higher humidity levels.
@@ -74,7 +70,7 @@ const BlogDetail = () => {
           </div>
 
           <div className="pb-6">
-            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">4. WATERING AND SOIL</h2>
+            <h2 className="text-xl font-semibold mb-4 mt-4">4. WATERING AND SOIL</h2>
             Proper watering techniques are crucial for rare indoor plants.
             It&apos;s essential to understand the watering needs of your plant and avoid overwatering or underwatering.
             Some rare plants may require well-draining soil, while others prefer a more moisture-retentive mix.
@@ -82,14 +78,14 @@ const BlogDetail = () => {
           </div>
 
           <div className="pb-6">
-            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">5. PRUNING AND MAINTENANCE</h2>
+            <h2 className="text-xl font-semibold mb-4 mt-4">5. PRUNING AND MAINTENANCE</h2>
             Regular pruning helps maintain the health and shape of rare indoor plants.
             Remove any dead or yellowing leaves, trim overgrown branches, and promote bushier growth.
             Additionally, keep an eye out for pests and diseases, and take immediate action if you notice any signs of infestation.
           </div>
 
           <div className="pb-6">
-            <h2 className="text-xl text-gray-800 font-semibold mb-4 mt-4">6. FERTILISING</h2>
+            <h2 className="text-xl font-semibold mb-4 mt-4">6. FERTILISING</h2>
             Rare indoor plants may benefit from occasional fertilisation.
             However, it&apos;s essential to use a diluted, balanced fertiliser and follow the recommended dosage.
             Over-fertilisation can harm the plant, so it&apos;s crucial to be cautious and monitor the plant&apos;s response.
@@ -108,7 +104,7 @@ const BlogDetail = () => {
             is learning my graceful. Feel plan know is he like on pure. See burst found sir met think hopes are marry
             among. Delightful remarkably new assistance saw literature mrs favourable.</div>
 
-          <h2 className="text-2xl text-gray-800 font-semibold mb-4 mt-4">CONCLUSION</h2>
+          <h2 className="text-2xl font-semibold mb-4 mt-4">CONCLUSION</h2>
           <p className="pb-6">
             Caring for rare indoor plants can be a rewarding and enjoyable experience.
             By researching the plant, providing proper lighting, maintaining optimal temperature and humidity, watering correctly, pruning regularly, and fertilizing with care, you can ensure the health and longevity of your rare indoor plants.
