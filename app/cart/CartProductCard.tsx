@@ -30,7 +30,7 @@ const CartProductCard: React.FC<CartProductCardProps> = ({
     <div className='p-4 border-t border-gray-100 lg:flex lg:justify-between lg:items-center'>
       <div className='flex gap-3 items-center relative'>
         <span className='text-xl'>{number}.</span>
-        <Image src={imgSrc} alt={title} width={120} height={120} />
+        <Image src={imgSrc} alt={title} width={120} height={120} priority/>
         <div>
           <p className='text-xl'>{title}</p>
           <small className='text-sm'>{shortDescription}</small>
