@@ -1,8 +1,9 @@
 'use client'
 import Pagination from '@/components/common/Pagination'
-import ProductTeaser from '@/components/product/ProductTeaser';
 import { useState } from 'react';
 import Breadcrumb from '@/components/common/Breadcrumb';
+import ProductCard from '@/components/product/ProductCard';
+import PageHeading from '@/components/common/PageHeading';
 
 export default function Products() {
   const [selectedFilter, setSelectedFilter] = useState('all');
@@ -33,15 +34,19 @@ export default function Products() {
   return (
     <>
       <main className="flex flex-col items-center justify-between p-24 py-8">
-        <div className="px-6 self-start font-semibold">
+        <div className="px-6 self-start font-semibold lg:block hidden">
           <Breadcrumb />
         </div>
+        <PageHeading title='All plants colection' subTitle="The Shop" />
         <div className="container px-6 py-8 mx-auto">
           <div className="lg:flex lg:-mx-2">
             <div className="space-y-3 lg:w-1/5 lg:px-2 lg:space-y-4 lg:block hidden">
               <a
                 className={ selectedFilter === 'all' ? `${defaultCategoryClasses} text-brand-green font-semibold underline` : defaultCategoryClasses}
-              >All Plants</a>
+                onClick={() => setSelectedFilter('all')}
+              >
+                All Plants
+              </a>
               {
                 CATEGORY_LIST.map((category) => (
                   <a
@@ -55,7 +60,7 @@ export default function Products() {
               }
             </div>
             <div className="mt-6 lg:mt-0 lg:px-2 lg:w-4/5 ">
-              <div className="flex items-center justify-between text-sm tracking-widest uppercase ">
+              <div className="flex items-center justify-between text-sm tracking-widest uppercase">
                 <p className="text-gray-500 dark:text-gray-300">{tempProductlist.length} Items</p>
                 <div className="flex items-center">
                   <p className="text-gray-500 dark:text-gray-300">Sort</p>
@@ -75,8 +80,8 @@ export default function Products() {
                 </div>
               </div>
               <div className="grid grid-cols-1 gap-10 mt-5 mb-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
-                {tempProductlist.map(item => (
-                  <ProductTeaser key={item}/>
+                {tempProductlist.map((item: any, index: number) => (
+                  <ProductCard key={item} isSaleOff={index === 1}/>
                 ))}
               </div>
             </div>
