@@ -10,6 +10,7 @@ import Logo from '../common/Logo';
 import IconFacebook from '../icons/IconFacebook';
 import IconInstagram from '../icons/IconInstagram';
 import IconTwitter from '../icons/IconTwitter';
+import Image from 'next/image';
 
 interface FooterData {
   description: string;
@@ -27,7 +28,7 @@ export default function Footer() {
 
   // footer
   return (
-    <footer className='footer mt-20 pt-14 pb-10 bg-primary text-white'>
+    <footer className='footer mt-20 pt-14 bg-primary text-white'>
       <div className='wrapper flex flex-col gap-10 md:items-center'>
         <Logo white={true} />
         <div className='social-media flex flex-col gap-5 md:items-center'>
@@ -82,7 +83,12 @@ export default function Footer() {
           <p className='description md:text-center max-w-2xl'>
             {footerData.description}
           </p>
-          <div className='credits flex flex-col md:flex-row gap-2.5 md:items-center'>
+          
+        </div>
+      </div>
+      <div className="bg-primary py-4">
+        <div className="container flex items-center justify-between">
+          <div className='credits ml-20 flex flex-col md:flex-row gap-2.5 md:items-center text-sm'>
             <p className='text-gray-200'>©2023 Plant shop</p>
             <Link
               href='/'
@@ -95,8 +101,11 @@ export default function Footer() {
               Terms and Conditions
             </Link>
           </div>
+            <div>
+              <Image src="/payment_methods.png" alt="methods" width={300} height={20} />
+            </div>
         </div>
-      </div>
+    </div>
     </footer>
   );
 }
