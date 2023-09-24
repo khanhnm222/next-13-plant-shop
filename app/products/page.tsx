@@ -79,7 +79,7 @@ export default function Products() {
                   </select>
                 </div>
               </div>
-              <div className="grid grid-cols-1 gap-10 mt-5 mb-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+              <div className="grid grid-cols-1 gap-10 mt-5 mb-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center">
                 {tempProductlist.map((item: any, index: number) => (
                   <ProductCard key={item} isSaleOff={index === 1}/>
                 ))}

@@ -1,5 +1,6 @@
 "use client";
 import ProductTeaser from "@/components/product/ProductTeaser";
+import RankingStar from "@/components/product/RankingStar";
 import Image from "next/image";
 import { useState } from "react";
 
@@ -94,6 +95,7 @@ export default function ProductDetail() {
               houseplants, houseplants. Monstera deliciosa prefers a cool, humid
               climate, with green leaves year round, and is easy to care for.
             </p>
+            <RankingStar starNumber={3} />
             <div className="flex justify-between items-center lg:flex-col lg:items-start">
               <div className="flex justify-between items-center gap-4 font-bold">
                 <p className="text-2xl">125.000 VND</p>
@@ -102,7 +104,7 @@ export default function ProductDetail() {
               <p className="text-grayish-blue line-through">250.000 VND</p>
             </div>
             <div className="flex flex-col gap-4 lg:flex-row">
-              <div className="relative lg:basis-1/3">
+              <div className="relative lg:basis-1/3 max-w-[150px]">
                 <button
                   className="absolute translate-y-[-50%] top-[50%] left-6 pt-[11px]"
                   onClick={() =>
@@ -140,7 +142,7 @@ export default function ProductDetail() {
                   />
                 </button>
               </div>
-              <button className="flex gap-4 h-3 text-center bg-primary justify-center items-center text-white font-bold p-6 rounded-2xl hover:bg-secondary hover:text-brand-green lg:basis-2/3">
+              <button className="flex gap-4 h-3 text-center max-w-[200px] bg-primary justify-center items-center text-white font-bold p-6 rounded-2xl hover:bg-secondary hover:text-brand-green lg:basis-2/3">
                 <Image
                   src="/icon-cart-white.svg"
                   className="text-white"
