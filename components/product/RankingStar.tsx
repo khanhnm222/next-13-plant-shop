@@ -1,11 +1,14 @@
-const RankingStar = () => {
+interface RankingStarProps {
+  starNumber?: number;
+}
+const RankingStar = ({ starNumber = 5 }: RankingStarProps) => {
 
   const quantityStars = [1, 2, 3, 4, 5]
 
   return (
     <div className="flex items-center">
     {
-      quantityStars.map((quantity: any) => (
+      quantityStars.filter(item => item <= starNumber).map((quantity: any) => (
         <svg key={quantity} className="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20"
           xmlns="http://www.w3.org/2000/svg">
           <path
