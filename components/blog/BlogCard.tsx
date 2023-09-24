@@ -25,12 +25,12 @@ const BlogCard = () => {
           <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 line-clamp-3">
             As you likely already know, plants can really spruce up your space and add a new level of gorgeous decor to your home. They help to create a welcoming and cozy environment, which can positively affect your mood. But did you know that some plants are thought to bring luck and good fortune into your life? If you are hoping for 2023 to be your lucky year, here are 3 plants that can help bring forth some luck in your life.
           </p>
-          <Button variant={"primary"} icon='only' onClick={(e) => router.push('/blogs/1')}>
+          {/* <Button variant={"primary"} icon='only' onClick={(e) => router.push('/blogs/1')}>
             Read more
             <svg className="-mr-1 ml-2 h-4 w-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
               <path fillRule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clipRule="evenodd"></path>
             </svg>
-          </Button>
+          </Button> */}
         </div>
       </div>
     </div>
