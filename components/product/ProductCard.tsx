@@ -42,14 +42,14 @@ const ProductCard = ({ name, isSaleOff = false, isTeaser = false }: ProductProps
         </h3>
         <div className="text-lg text-brand-green flex justify-center mb-5 flex-wrap gap-[5px]">
           <RankingStar />
-          <p className="ml-auto text-base font-medium text-primary">
-            <span>125.000 VND</span>
+          <div className="text-base font-medium text-primary">
+            <div>125.000 VND</div>
             {/* {getDiscountedPricePercentage(
               250000,
               125000
             )}
             % off */}
-          </p>
+          </div>
         </div>
         {
           !isTeaser && (
