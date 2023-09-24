@@ -1,4 +1,5 @@
 import type { Config } from 'tailwindcss'
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 const config: Config = {
   content: [
@@ -45,6 +46,15 @@ const config: Config = {
         brandbeige: '#E9BA9E',
         'brand-brown-500': '#4E3924',
         'brand-orange': '#FF6721',
+      },
+      borderColor: {
+        'primary': '#284139',
+        'secondary': '#E9BA9E'
+      },
+      screens: {
+        'xs': {'min': '200px', 'max': '439px'},
+        // => @media (min-width: 200px and max-width: 439px) { ... }
+       ...defaultTheme.screens,
       },
     },
   },
