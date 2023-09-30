@@ -12,7 +12,7 @@ const ProductGallery = () => {
           <div className="flex flex-wrap self-start justify-evenly md:gap-5 sm:gap-5 xs:gap-5">
             <div className="w-full lg:w-1/5 md:w-full lg:mb-0">
               <div className="relative mb-6 overflow-hidden rounded-md shadow-md group">
-                <Image src="/Plant_gallery_1.webp"
+                <Image src="/Plant_gallery_1.jpg"
                   width={1000}
                   height={625}
                   className="group-hover:origin-center group-hover:scale-110 group-hover:rotate-3 h-[300px] w-full transition duration-500 object-cover"
