@@ -1,4 +1,5 @@
 "use client";
+import CommentSection from "@/components/product/CommentSection";
 import ProductTeaser from "@/components/product/ProductTeaser";
 import RankingStar from "@/components/product/RankingStar";
 import Image from "next/image";
@@ -247,6 +248,7 @@ export default function ProductDetail() {
           </div>
         </div>
         <ProductTeaser />
+        <CommentSection />
       </div>
     </main>
   );
