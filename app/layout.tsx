@@ -5,6 +5,7 @@ import { Inter } from 'next/font/google'
 import Navbar from '@/components/navigation/Navbar'
 import Footer from '@/components/navigation/Footer'
 import { Providers } from '@/redux/provider'
+import ScrollToTop from '@/components/common/ScrollToTop'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -24,6 +25,7 @@ export default function RootLayout({
         <Providers>
           <Navbar />
             {children}
+            <ScrollToTop />
           <Footer />
         </Providers>
       </body>
