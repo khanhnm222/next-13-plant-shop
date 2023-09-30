@@ -4,7 +4,7 @@ import Button from "../../common/Button"
 const TopCover = () => {
   return (
     <div className='content wrapper h-full text-center flex flex-col items-center justify-center gap-2'>
-      <div className='text-4xl md:text-6xl text-brand-green font-medium bg-white rounded-md p-[10px] opacity-80'>
+      <div className='text-4xl md:text-6xl text-brand-green font-medium bg-white rounded-md p-[10px]'>
         Life with Planty
         <p className='text-lg max-w-4xl text-brand-green mx-auto mt-2'>
           Enjoy your life!
