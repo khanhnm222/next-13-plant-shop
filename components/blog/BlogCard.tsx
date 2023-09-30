@@ -4,15 +4,19 @@ import Image from "next/image"
 import Button from "../common/Button"
 import Link from 'next/link'
 
-const BlogCard = () => {
+interface BlogCardProps {
+  id: number;
+}
+const BlogCard = ({ id }: BlogCardProps) => {
   const router = useRouter()
   return (
-    <div className="max-w-xl">
+    <div className="max-w-xl min-h-[403px]">
       <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700 group overflow-hidden relative">
         <Link href="/blogs/1">
           <Image
             className="rounded-t-lg object-cover group-hover:scale-110 duration-200"
-            src="https://flowbite.com/docs/images/blog/image-1.jpg"
+            // src="https://flowbite.com/docs/images/blog/image-1.jpg"
+            src={`/blog/Blog_cover_${id}.jpg`}
             alt="Blog Image"
             width={920}
             height={613}
