@@ -16,7 +16,7 @@ export default function Blogs() {
           <div className="container px-6 pb-10 mx-auto">
             <div className="grid grid-cols-1 gap-10 mt-5 mb-10 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 place-items-center">
               {blogItems && blogItems.map(blog => (
-                <BlogCard key={blog}/>
+                <BlogCard key={blog} id={blog}/>
               ))}
             </div>
           </div>
