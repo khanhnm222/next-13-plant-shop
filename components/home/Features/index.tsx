@@ -20,8 +20,8 @@ const Features = () => {
         <div className="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
           <IconCashback />
           <div>
-            <h4 className="font-medium capitalize text-lg">Money Rturns</h4>
-            <p className="text-gray-500 text-sm">7 days money returs</p>
+            <h4 className="font-medium capitalize text-lg">Money Returns</h4>
+            <p className="text-gray-500 text-sm">7 days money returns</p>
           </div>
         </div>
         <div className="border border-primary rounded-sm px-3 py-6 flex justify-center items-center gap-5">
