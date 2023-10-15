@@ -52,8 +52,9 @@ const config: Config = {
         'secondary': '#E9BA9E'
       },
       screens: {
-        'xs': {'min': '200px', 'max': '439px'},
+        'xs': {'min': '0px', 'max': '439px'},
         // => @media (min-width: 200px and max-width: 439px) { ... }
+        'sm': {'min': '440px'},
        ...defaultTheme.screens,
       },
     },
