@@ -104,7 +104,7 @@ export default function ProductDetail() {
               </div>
               <p className="text-grayish-blue line-through">250.000 VND</p>
             </div>
-            <div className="flex flex-col gap-4 lg:flex-row">
+            <div className="flex xs:flex-col gap-4 flex-row">
               <div className="relative lg:basis-1/3 max-w-[150px]">
                 <button
                   className="absolute translate-y-[-50%] top-[50%] left-6 pt-[11px]"

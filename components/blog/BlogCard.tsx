@@ -12,7 +12,7 @@ const BlogCard = ({ id }: BlogCardProps) => {
   return (
     <div className="max-w-xl min-h-[403px]">
       <div className="bg-white shadow-md border border-gray-200 rounded-lg max-w-sm dark:bg-gray-800 dark:border-gray-700 group overflow-hidden relative">
-        <Link href="/blogs/1">
+        <Link href={`/blogs/${id}`}>
           <Image
             className="rounded-t-lg object-cover group-hover:scale-110 duration-200"
             // src="https://flowbite.com/docs/images/blog/image-1.jpg"
@@ -23,7 +23,7 @@ const BlogCard = ({ id }: BlogCardProps) => {
           />
         </Link>
         <div className="p-5">
-          <Link href="blogs/1">
+          <Link href={`/blogs/${id}`}>
             <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">3 Plants That Will Bring Luck Into Your Life</h5>
           </Link>
           <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 line-clamp-3">

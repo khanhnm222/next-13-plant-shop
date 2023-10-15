@@ -63,21 +63,21 @@ const CommentSection = ({ className, disableHeader = false }: CommentSectionProp
     {
       id: 1,
       name: 'Nguyen Van A',
-      avatar: 'https://i.postimg.cc/ZYLBy1kr/Cheerful-cute-girl-greeting-with-namaste-cartoon-art-illustration.jpg',
+      avatar: '/avatar/avatar-example.jpg',
       createdDate: '12, SEP 2023',
-      content: 'The plant is so prity. It is really nice when put it in my bed room'
+      content: 'The plant is so pretty. It is really nice when put it in my bed room'
     },
     {
       id: 2,
       name: 'Nguyen Thi C',
-      avatar: 'https://i.postimg.cc/Qt3CFq04/7294794.jpg',
+      avatar: '/avatar/avatar-example-1.jpg',
       createdDate: '12, SEP 2023',
       content: 'The price is very cheap for everything it bring to my house'
     },
     {
       id: 3,
       name: 'Huynh Minh C',
-      avatar: 'https://i.postimg.cc/fRdMY936/60111.jpg',
+      avatar: '/avatar/avatar-example-2.jpg',
       createdDate: '12, SEP 2022',
       content: 'I am so happy when catching my wife suprise by this gift. It would help us enjoy spacing in our garden'
     },
